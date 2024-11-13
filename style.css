@@ -96,3 +96,8 @@ header a:hover{color: blueviolet;}
 #hero h1{color: white;}
 
 #hero button{font-size: 1.75em;}
+
+#somos-Bejob .container{
+    text-align: center;
+    padding: 200px 12px;
+}
