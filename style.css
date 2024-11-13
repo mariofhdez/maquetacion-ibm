@@ -74,3 +74,25 @@ header a{
 
 header a:hover{color: blueviolet;}
 /* fin de la barra de navegacion*/
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    ),
+    url(media/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{color: white;}
+
+#hero button{font-size: 1.75em;}
