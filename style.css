@@ -189,3 +189,73 @@ footer .container{
     justify-content: center;
     align-items: flex-end;
 }
+
+/* ------ Mediaqueries ------*/
+@media (min-width:850px) {
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+
+    #hero h1{font-size: 5em;}
+
+    #somos-Bejob .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-Bejob .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-Bejob h2{margin-top: 0;}
+
+    #somos-Bejob .img-container{
+        background-image: url(media/somos-Bejob.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-programas h2{font-size: 4em;}
+
+    #nuestros-progremas h3{margin-top: 0;}
+
+    #nuestros-progremas .cursos{padding: 50px;}
+
+    /* ----- */
+
+    footer .container{justify-content: flex-end;}
+
+    #final h2{font-size: 5em;}
+
+    #final button{font-size: 2em;}
+}
