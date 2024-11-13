@@ -174,3 +174,18 @@ header a:hover{color: blueviolet;}
 #final h2{font-size: 9vw;}
 
 #final button{font-size: 5vw;}
+
+footer{background-color: rgb(230, 230, 230);}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
