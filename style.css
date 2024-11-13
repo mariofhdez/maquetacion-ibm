@@ -149,3 +149,14 @@ header a:hover{color: blueviolet;}
     ),
     url(media/python.jpg);
 }
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
